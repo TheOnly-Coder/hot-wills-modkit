@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "hot-wills-modkit",
+  "version": "0.1.0",
+  "description": "Mod any game you own with an AI agent, passthrough-first and Linux-first: engine recon, offline art pipeline, ReShade-free compositing, own bridge protocol, in-game testing, and a shared knowledge base. No API key, no Windows-only tools.",
+  "author": {
+    "name": "hot-wills-modkit contributors"
+  },
+  "homepage": "https://github.com/<you>/hot-wills-modkit",
+  "repository": "https://github.com/<you>/hot-wills-modkit",
+  "license": "MIT",
+  "keywords": [
+    "game-modding",
+    "modding",
+    "passthrough",
+    "linux",
+    "reverse-engineering",
+    "knowledge-base",
+    "sprites",
+    "game-assets",
+    "agent-skills"
+  ]
+}

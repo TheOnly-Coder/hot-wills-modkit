@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# hot-wills-modkit CLI launcher. Works from a clone or a PATH symlink.
+#   hw scan --list | hw bridge demo | hw composite demo --out takes/demo | ...
+# Uses uv when available (it creates the project's .venv on first run);
+# otherwise the system python3, which then needs `pip install pillow numpy pyyaml`.
+set -euo pipefail
+SRC="${BASH_SOURCE[0]}"
+while [ -L "$SRC" ]; do
+  DIR="$(cd -P "$(dirname "$SRC")" && pwd)"
+  SRC="$(readlink "$SRC")"
+  [[ "$SRC" != /* ]] && SRC="$DIR/$SRC"
+done
+ROOT="$(cd -P "$(dirname "$SRC")/.." && pwd)"
+if command -v uv >/dev/null 2>&1 && [ -z "${HW_NO_UV:-}" ]; then
+  exec uv run --quiet --project "$ROOT" python -m hw "$@"
+fi
+PY="$(command -v python3 || command -v python)"
+PYTHONPATH="$ROOT${PYTHONPATH:+:$PYTHONPATH}" exec "$PY" -m hw "$@"

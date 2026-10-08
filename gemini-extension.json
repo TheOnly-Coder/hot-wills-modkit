@@ -1,0 +1,6 @@
+{
+  "name": "hot-wills-modkit",
+  "version": "0.1.0",
+  "description": "Mod any game you own with an AI agent, passthrough-first and Linux-first: engine recon, offline art pipeline, ReShade-free compositing, own bridge protocol, and a shared knowledge base. No API key needed.",
+  "contextFileName": "AGENTS.md"
+}

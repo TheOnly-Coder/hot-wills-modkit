@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212" height="32" role="img" aria-label="made with hot-wills-modkit">
+  <rect width="212" height="32" rx="6" fill="#111"/>
+  <rect x="1" y="1" width="210" height="30" rx="5" fill="none" stroke="#444"/>
+  <circle cx="18" cy="16" r="7" fill="#7CFC00"/>
+  <circle cx="18" cy="16" r="3" fill="#111"/>
+  <text x="32" y="21" font-family="monospace" font-size="13" fill="#eee">made with hot-wills-modkit</text>
+</svg>

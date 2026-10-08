@@ -1,0 +1,22 @@
+[project]
+name = "hot-wills-modkit"
+version = "0.1.0"
+description = "Agent-native game-modding toolkit, passthrough-first and Linux-first: any-mod loop, ReShade-free compositing, zero-dependency bridge protocol, local asset pipeline. No API key, no Windows-only tools."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "pillow>=10",
+    "numpy>=1.24",
+    "pyyaml>=6",
+]
+
+[project.scripts]
+hw = "hw.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["hw"]
