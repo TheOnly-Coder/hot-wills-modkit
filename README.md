@@ -1,3 +1,4 @@
+<img width="1440" height="720" alt="Gemini_Generated_Image_2be1ya2be1ya2be1" src="https://github.com/user-attachments/assets/25f35ff2-efae-4b99-b8f8-1b7d016a4cd9" />
 # hot-wills-modkit
 
 **Mod any game with any AI coding agent — passthrough-first, Linux-first, no ReShade, no API key.**
