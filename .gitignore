@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+takes/
+frames/
+bridge.jsonl
+docs/CONTRACT.md
+*.bak
+.env

@@ -1,5 +1,6 @@
 [
   "games/_example/minimal-linux-passthrough.md",
+  "games/skyrim-se/skycraft-linux-passthrough.md",
   "techniques/bridge-contracts-ownership-units-lifecycle.md",
   "techniques/choosing-a-passthrough-route.md",
   "techniques/linux-compositing-without-reshade.md"

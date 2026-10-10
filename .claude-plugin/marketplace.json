@@ -1,0 +1,15 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "hot-wills-modkit",
+  "description": "Skills and tools for modding games with AI agents, passthrough-first and Linux-first.",
+  "owner": {
+    "name": "hot-wills-modkit contributors"
+  },
+  "plugins": [
+    {
+      "name": "hot-wills-modkit",
+      "source": "./",
+      "description": "Mod any game you own with an AI agent, passthrough-first and Linux-first: engine recon, offline art pipeline, ReShade-free compositing, own bridge protocol, and a shared knowledge base."
+    }
+  ]
+}

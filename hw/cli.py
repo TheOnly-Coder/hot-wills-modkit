@@ -7,7 +7,8 @@ import sys
 
 from hw import __doc__ as DOC, __version__
 
-GROUPS = ["scan", "bridge", "composite", "capture", "asset", "backup", "publish", "kb"]
+GROUPS = ["scan", "bridge", "composite", "capture", "asset", "backup", "publish", "kb",
+          "proton", "skyrim", "shade", "minidump"]
 
 
 def main(argv=None):

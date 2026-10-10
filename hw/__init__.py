@@ -12,6 +12,10 @@ Subcommands (see `hw --help`):
   backup     snapshot and restore save folders before you touch them
   publish    lint a mod folder before sharing: game files, decompiled code, secrets
   kb         the knowledge base: search prior field notes, write your own, check it, open a PR
+  proton     Steam/Proton paths, prefix runs, per-game doctor data
+  skyrim     Skyrim SE on Linux: status, SkyCraft install, auto-launch with Modrinth MC
+  shade      ReShade replacement: CPU postFX chain + guest-to-host grade, no injector
+  minidump   read Windows crash dumps on Linux (exception + fault stack)
 """
 
 __version__ = "0.1.0"

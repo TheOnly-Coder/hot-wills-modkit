@@ -31,6 +31,6 @@ Ask before publishing anything (posts and PRs included — a release carries the
 mod's own repo, attach the package, write the post from the README's first paragraph, and use the badge:
 
 ```markdown
-[![made with hot-wills-modkit](docs/media/made-with.svg)](https://github.com/<you>/hot-wills-modkit)
+[![made with hot-wills-modkit](docs/media/made-with.svg)](https://github.com/TheOnly-Coder/hot-wills-modkit)
 ```
 Then write the field note (**share-field-notes**) — released or not, the note is the point.

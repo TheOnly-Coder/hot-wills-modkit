@@ -26,14 +26,20 @@ once) that also run on **Linux without ReShade**.
     - `backup`: snapshot and restore saves
     - `publish`: pre-release lint
     - `kb`: the knowledge base
+    - `proton`: Steam/Proton paths, prefix runs, per-game doctor data
+    - `skyrim`: Skyrim SE on Linux — status, SkyCraft install, auto-launch
+    - `shade`: ReShade replacement — CPU postFX + guest-to-host grade
+    - `minidump`: read Windows crash dumps on Linux (exception + fault stack)
 - **No MCP server, no API key.** Everything runs locally and offline; that is the point. (Agents that got
   assets from universal-modder's fal MCP can still use it there — this kit's pipeline is the offline half.)
 - **Skills** (`skills/*/SKILL.md`, Agent Skills format) are copied where agents look for them in a clone:
   `.agents/skills` (Codex, Gemini CLI, Copilot, Cursor, OpenCode) and `.claude/skills` (Claude Code). Edit
   `skills/`, then copy it over; a test fails while the copies differ.
-- **Adapters** (`adapters/`): copy-paste bridge clients (Python stdlib-only, Lua, C#) for host/guest mods.
+- **Adapters** (`adapters/`): copy-paste bridge clients (Python stdlib-only, Lua, C#) for host/guest mods,
+  plus the Papyrus host shim (`papyrus/SkyCraftBridge.psc`) and the stdlib Skyrim host daemon.
 - **Engine playbooks:** `skills/mod-any-game/references/engines/`.
-- **Worked example:** `examples/linux-passthrough-minimal` (runs headless, no games needed).
+- **Worked examples:** `examples/linux-passthrough-minimal` (runs headless, no games needed) and
+  `examples/skyrim-skycraft-linux` (Skyrim SE x Modrinth Fabric 26.3: `bash run_demo.sh`).
 
 ## Rules (same spirit as the Hard rules in `skills/mod-any-game/SKILL.md`)
 - **What you can mod:** any game the user owns: single-player, multiplayer, or servers the user hosts.

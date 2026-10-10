@@ -1,0 +1,13 @@
+{
+  "name": "hot-wills-modkit",
+  "owner": {
+    "name": "hot-wills-modkit contributors"
+  },
+  "plugins": [
+    {
+      "name": "hot-wills-modkit",
+      "source": "./",
+      "description": "Mod any game you own with an AI agent, passthrough-first and Linux-first: engine recon, offline art pipeline, ReShade-free compositing, own bridge protocol, and a shared knowledge base."
+    }
+  ]
+}
